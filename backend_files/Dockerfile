@@ -1,5 +1,5 @@
-# Lightweight Python base image (same Python minor version family used for training)
-FROM python:3.11-slim
+# Lightweight Python base image - same Python version as the Colab runtime that trained the model (3.13)
+FROM python:3.13-slim
 
 # Working directory inside the container
 WORKDIR /app
